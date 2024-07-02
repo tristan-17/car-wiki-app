@@ -155,7 +155,7 @@ main{
     .aboutUsSection{
         display: flex;
         flex-direction: column;
-        
+        padding: 0 10rem;
 
         .mainText{
             display: flex;
@@ -181,7 +181,7 @@ main{
             display: flex;
             align-items: center;
             gap: 3rem;
-            padding: 0 10rem;
+            
 
             .imageCont{
                 img{
@@ -208,6 +208,111 @@ main{
 
         }
 
+    }
+    .bookNowSection{
+        display: flex;
+        flex-direction: column;
+        
+
+        .mainText{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding: 3rem 0;
+            gap: .5rem;
+            
+            h2{
+                text-align: center;
+                font-weight: 400;
+                font-size: 2.5rem;
+            }
+            .underLine{
+                width: 11vw;
+                height: .25vh;
+                border-radius: 5px;
+                background: rgb(255, 136, 0);
+            }
+
+        }
+
+        .contentCont{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1.5rem;
+            background: rgb(255, 136, 0, .3);
+            padding: 5rem 10rem;
+            
+            .firstRow{
+                display: flex;
+                align-items: center;
+                gap: 2rem;
+
+                .dropDownBtn{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    background: #f7f7f7;
+                    width: 20rem;
+                    padding: .9rem 1rem;
+                    border-radius: 5px;
+
+                    img{
+                        width: 1rem;
+                    }
+                    .btn{
+                        display: flex;
+                        align-items: center;
+                        gap: .3rem;
+
+                    }
+    
+                }
+            }
+            .secondRow{
+                display: flex;
+                align-items: center;
+                gap: 2rem;
+
+                .dropDownBtn{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    background: #f7f7f7;
+                    width: 14rem;
+                    padding: .9rem 1rem;
+                    border-radius: 5px;
+
+                    img{
+                        width: 1rem;
+                    }
+                    .btn{
+                        display: flex;
+                        align-items: center;
+                        gap: .3rem;
+
+                    }
+    
+                }
+                a{
+                    padding: .7rem 5rem;
+                    text-align: center;
+                    font-size: 1.3rem;
+                    background: rgb(255, 136, 0);
+                    border: none;
+                    border-radius: 5px;
+                    text-decoration: none;
+                    color: #000;
+                }
+            }
+
+            .bookNowBtn{
+                border: none;
+                background: transparent;
+                font-size: 1rem;
+            }
+
+        }
     }
 }
 
